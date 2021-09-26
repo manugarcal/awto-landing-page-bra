@@ -1,38 +1,185 @@
-.App {
+/* -----------global styles----------- */
+:root {
+  --primary-color : #00A3DA;
+  --secondary-color: #808080;
+}
+.primaryTitle{
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+.primaryText{
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.secondaryText{
+  color: var(--secondary-color);
+}
+
+/* -----------navbar || header Styles----------- */
+.headerContainer {
+  display: flex;
+  padding: 5vh 10vw;
+}
+.headerLogoContainer{
+  width: 50%;
+}
+.headerBtn {
+  margin: auto .5vw;
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color:#fff;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+
+	
+}
+.headerBtn:hover {
+	border:1px solid var(--primary-color);
+  color: #FFFFFF;
+}
+
+
+/* -----------Header styles----------- */
+.header{
+  padding: 5vh 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.headerTitle{
+  color: var(--primary-color);
+  font-size: 4em;
+}
+.headerSubtitle {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.headerInput{
+      padding: 10px;
+     font-size: 16px;
+     border-width: 1px;
+     border-color: var(--primary-color);
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 6px;
+     box-shadow: 0px 0px 5px var(--primary-color);
+     width: 50%;
+}
+.headerInput:focus {
+  outline: none;
+}
+.btnSubmit {
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #276897;
+  color: #fff;
+  width: 20%;
+
+}
+.moreInfoContainer{
+  display: flex;
+  align-self: start;
+  margin-top: 3vh;
+}
+.moreInfoText {
+  color: var(--secondary-color);
+  margin: 0 0 0 1vw;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -----------Benefits component styles----------- */
+.benefitsContainer{
+  margin: 5vh 10vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.benefitsTitle{
+  margin: auto;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.benefitsCards{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+.cardImageContainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.cardTitle {
+  height: 7vh;
+  text-align: center;
+  text-justify: distribute;
+}
+.cardText{
+  text-align: center;
+  text-justify: distribute;
 }
 
-.App-link {
-  color: #61dafb;
+/* -----------Our Pillars component Styles----------- */
+.ourPillarsContainer{
+  margin: 5vh 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.infoCardContainer{
+  margin-top: 5vh!important;
 }
+.infoCardContainer{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
+.infoCard1, .infoCard2, .infoCard3{
+  padding: 25px;
+}
+.infoCard1 { grid-area: 1 / 1 / 2 / 2; }
+.infoCard2 { grid-area: 1 / 2 / 2 / 3; }
+.infoCard3 { grid-area: 2 / 1 / 3 / 3; }
+
+.cardShape {
+  border-radius: 34px;
+  background: #fff;
+  box-shadow:  21px 21px 43px #f7e7e7,
+             -21px -21px 43px #ffffff;
+
+}
+
+/* -----------Suggest Points component Style----------- */
+
+/* -----------Social Media Component Styles----------- */
+
+/* -----------contac us form Styles----------- */
+
+/* -----------footer Styles----------- */
+
+
+
+
+/* -----------media query devices----------- */
+/* -----------Mobile----------- */
+@media only screen and (max-width: 40em) {
+  .header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .butonsContainer {
+    display: none;
+  }
+  
+}
+/* -----------Tablets----------- */
+
+/* -----------Desktop----------- */

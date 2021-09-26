@@ -158,7 +158,27 @@ grid-row-gap: 20px;
 /* -----------Suggest Points component Style----------- */
 
 /* -----------Social Media Component Styles----------- */
-
+.socialMediaContainer{
+  margin: 5vh 10vw;
+  display: flex;
+  justify-content: center;
+}
+.socialMediaWrapper{
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly; 
+  border-radius: 24px;
+  background: #fff;
+  box-shadow:  21px 21px 43px #f7e7e7,
+             -21px -21px 43px #ffffff;
+}
+.socialMediaIconsContainer{
+  display: flex;
+  margin: auto 4vw;
+}
+.socialMediaIcon{
+  margin: auto 1vw;
+}
 /* -----------contac us form Styles----------- */
 
 /* -----------footer Styles----------- */

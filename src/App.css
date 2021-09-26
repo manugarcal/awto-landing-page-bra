@@ -225,8 +225,18 @@ grid-row-gap: 20px;
   justify-content: center;
 }
 /* -----------footer Styles----------- */
-
-
+.footerContainer{
+ margin: 5vh 10vw;
+}
+.footerText, .footerBtns{
+  display: flex;
+  justify-content: center;
+}
+.footerLink{
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-left: 1vw;
+}
 
 
 /* -----------media query devices----------- */

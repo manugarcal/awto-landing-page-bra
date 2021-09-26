@@ -30,6 +30,35 @@ body {
     margin: 0 auto 5vh;
 }
 
+.formControl {
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 16px;
+    border-width: 0.5px;
+    border-color: var(--secondary-color);
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px var(--secondary-color);
+}
+
+.formControl:focus {
+    outline: none;
+}
+
+.btn {
+    border-radius: 28px;
+    border: 1px solid;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+
 
 /* -----------navbar || header Styles----------- */
 
@@ -198,17 +227,107 @@ body {
 
 /* -----------Suggest Points component Style----------- */
 
+.suggestPointsWrapper {
+    margin: 10vh 10vw;
+}
+
+.suggestPointsTitle {
+    text-align: center;
+}
+
+.suggestPointsContainer {
+    padding: 5vh 0vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.customColor {
+    color: var(--secondary-color);
+}
+
+.submitBtnSuggestPoints {
+    width: 40%;
+    background-color: var(--secondary-color);
+}
+
 
 /* -----------Social Media Component Styles----------- */
+
+.socialMediaContainer {
+    margin: 5vh 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.socialMediaWrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 21px 21px 43px #f7e7e7, -21px -21px 43px #ffffff;
+}
+
+.socialMediaIconsContainer {
+    display: flex;
+    margin: auto 4vw;
+}
+
+.socialMediaIcon {
+    margin: auto 1vw;
+}
 
 
 /* -----------contac us form Styles----------- */
 
+.contactFormContainer {
+    margin: 5vh 10vw;
+}
+
+.contactFormTitle {
+    margin: auto;
+    text-align: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+
+.submitContactForm {
+    background-color: var(--primary-color);
+    width: 30%;
+    justify-content: center;
+}
+
 
 /* -----------footer Styles----------- */
 
+.footerContainer {
+    margin: 5vh 10vw;
+}
 
-/* -----------media query devices----------- */
+.footerText,
+.footerBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 1vw;
+}
 
 
 /* -----------Mobile----------- */

@@ -3,7 +3,7 @@ import ScrollIcon from '../assets/ic-scroll.svg'
 
 const Header = () => {
   return (
-    <section className="header">
+    <section className="header container">
       <div>
         <h1 className="headerTitle">Você quer fazer parte de uma tendência global?</h1>
         <p className="headerSubtitle">

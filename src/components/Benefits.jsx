@@ -6,7 +6,7 @@ import Onboard3 from "../assets/onboard-3.svg";
 
 const Benefits = () => {
   return (
-    <section className="benefitsContainer">
+    <section className="container">
       <div className="benefitsTitle">
         <p className="secondaryText">Esqueça benzina, seguro e burocracias</p>
         <h3 className="primaryTitle">

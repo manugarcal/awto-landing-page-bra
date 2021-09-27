@@ -6,7 +6,7 @@ import pilarSocial from "../assets/pilar-social.svg";
 
 const OurPillars = () => {
   return (
-    <section className="ourPillarsContainer">
+    <section className="ourPillarsContainer container">
       <div className="ourPillarsTitle">
         <p className="secondaryText">Nossos pilares</p>
         <h3 className="primaryTitle">

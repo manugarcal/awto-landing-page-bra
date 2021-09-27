@@ -3,7 +3,7 @@ import awtoLogo from "../assets/awto-header.svg";
 
 const Navbar = () => {
   return (
-    <div className="headerContainer">
+    <div className="headerContainer container">
       <div className="headerLogoContainer">
         <img src={awtoLogo} alt="Awto Logo" />
       </div>

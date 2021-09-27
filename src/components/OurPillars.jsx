@@ -2,6 +2,7 @@ import React from "react";
 import pilarEconomico from "../assets/pilar-economico.svg";
 import pilarPratico from "../assets/pilar-pratico.svg";
 import pilarSocial from "../assets/pilar-social.svg";
+import pilarApp from "../assets/img-pilares.png";
 
 
 const OurPillars = () => {
@@ -38,7 +39,9 @@ const OurPillars = () => {
           </div>
         </div>
       </div>
-      <div>image</div>
+      <div className="ourPillarsImage">
+        <img src={pilarApp} alt="pilares app" />
+      </div>
     </section>
   );
 };

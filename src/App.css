@@ -184,8 +184,14 @@ body {
 
 .ourPillarsContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
+}
+
+.ourPillarsImage img {
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
 .infoCardContainer {

@@ -263,6 +263,11 @@ body {
     width: 40%;
     background-color: var(--secondary-color);
 }
+.modalCta{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--primary-color);
+}
 
 .modal {
     position: fixed;
@@ -296,6 +301,9 @@ body {
     position: relative;
     padding: 30px;
     max-width: 30%;
+}
+.modal-container li {
+    margin: 1vh 0;
 }
 .modal-close {
     position: absolute;

@@ -1,23 +1,9 @@
-import React from "react";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import {React, useContext} from "react";
+import { Context } from "../store/appContext";
 
 const SuggestPoints = () => {
-  const modals = document.querySelectorAll("[data-modal]");
-
-  modals.forEach(function (trigger) {
-    trigger.addEventListener("click", function (event) {
-      event.preventDefault();
-      const modal = document.getElementById(trigger.dataset.modal);
-      modal.classList.add("open");
-      const exits = modal.querySelectorAll(".modal-exit");
-      exits.forEach(function (exit) {
-        exit.addEventListener("click", function (event) {
-          event.preventDefault();
-          modal.classList.remove("open");
-        });
-      });
-    });
-  });
-
+const {actions} = useContext(Context);
   return (
     <section className="suggestPointsWrapper">
       <div className="suggestPointsTitle">
@@ -25,7 +11,7 @@ const SuggestPoints = () => {
         <h3 className="primaryTitle">
           Ajude-nos a decidir a localização de nossos novos Pontos Awto
         </h3>
-        <a href="/" data-modal="modal-one">instruções</a>
+        <a onClick={actions.openModal()} data-modal="modal-one">instruções</a>
       </div>
       <div className="suggestPointsContainer">
         <div className="suggestPointsMapContainer">map</div>

@@ -11,7 +11,7 @@ const {actions} = useContext(Context);
         <h3 className="primaryTitle">
           Ajude-nos a decidir a localização de nossos novos Pontos Awto
         </h3>
-        <a onClick={actions.openModal()} data-modal="modal-one">instruções</a>
+        <a href="/" onClick={actions.openModal()} data-modal="modal-one">instruções</a>
       </div>
       <div className="suggestPointsContainer">
         <div className="suggestPointsMapContainer">map</div>

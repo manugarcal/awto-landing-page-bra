@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import ScrollIcon from '../assets/ic-scroll.svg'
 import imgAwtoMainHeader from '../assets/img-awto.webp'
 
@@ -11,22 +11,22 @@ const Header = () => {
           O principal sistema de compartilhamento de carros da América Latina
           chegará em breve ao Brasil
         </p>
-        <div className="headerInpurContainer w-100 w-80-l flex mv5">
+        <div className="headerInpurContainer w-100 w-80-l flex mv4">
           <input className="headerInput w-70 w-80-l" type="text" />
           <input className="btnSubmit w-30 w-20-l" type="submit" />
         </div>
-        <div className="flex justify-center justify-start-l">
-          <img src={ScrollIcon} alt="Scroll Icon" />
-          <span className="text-color-blue mh3">Explorar para mais informação</span>
-        </div>
       </div>
       <div className="w-100 w-50-l">
-          <picture>
-            <source srcset={imgAwtoMainHeader} type="image/webp"/>
-            <img src={imgAwtoMainHeader} alt="Awto" />
-          </picture>
+        <picture>
+          <source srcSet={imgAwtoMainHeader} type="image/webp" />
+          <img src={imgAwtoMainHeader} alt="Awto" />
+        </picture>
+      </div>
+      <div className="flex justify-center justify-start-l w-100 w-50-l mt4 mb5">
+        <img src={ScrollIcon} alt="Scroll Icon" />
+        <span className="text-color-blue mh3">Explorar para mais informação</span>
       </div>
     </section>
-  );
-};
-export default Header;
+  )
+}
+export default Header

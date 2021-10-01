@@ -1,5 +1,5 @@
-import React from "react";
-import awtoLogo from "../assets/awto-header.svg";
+import React from 'react'
+import awtoLogo from '../assets/awto-header.svg'
 
 const Navbar = () => {
   return (
@@ -21,4 +21,4 @@ const Navbar = () => {
     </div>
   )
 }
-export default Navbar;
+export default Navbar

@@ -24,6 +24,10 @@ body {
     margin: 0 auto;
 }
 
+p {
+    font-size: 14px;
+}
+
 .formControl {
     margin-bottom: 1rem;
     padding: 10px;
@@ -122,80 +126,12 @@ body {
 }
 
 
-/* -----------Benefits component styles----------- */
-
-.benefitsTitle {
-    margin: auto;
-    text-align: center;
-}
-
-.benefitsCards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 0px;
-}
-
-.cardImageContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.cardTitle {
-    height: 7vh;
-    text-align: center;
-    text-justify: distribute;
-}
-
-.cardText {
-    text-align: center;
-    text-justify: distribute;
-}
-
-
 /* -----------Our Pillars component Styles----------- */
-
-.ourPillarsContainer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-}
 
 .ourPillarsImage img {
     width: 80%;
     display: block;
     margin: auto;
-}
-
-.infoCardContainer {
-    margin-top: 5vh!important;
-}
-
-.infoCardContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-}
-
-.infoCard1,
-.infoCard2,
-.infoCard3 {
-    padding: 25px;
-}
-
-.infoCard1 {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.infoCard2 {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.infoCard3 {
-    grid-area: 2 / 1 / 3 / 3;
 }
 
 .cardShape {

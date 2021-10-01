@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerText">
-        <p className="secondaryText">
+        <p className="">
           Awto &copy; Copyright 2021. todos os dereitos reservados
         </p>
       </div>

@@ -1,14 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import {React, useContext} from "react";
-import { Context } from "../store/appContext";
+import { React, useContext } from 'react'
+import { Context } from '../store/appContext'
 
 const SuggestPoints = () => {
-const {actions} = useContext(Context);
+  const { actions } = useContext(Context)
   return (
     <section className="suggestPointsWrapper">
       <div className="suggestPointsTitle">
-        <p className="secondaryText">Sugira pontos Awto</p>
-        <h3 className="primaryTitle text-color-blue">
+        <p className="">Sugira pontos Awto</p>
+        <h3 className="text-color-blue">
           Ajude-nos a decidir a localização de nossos novos Pontos Awto
         </h3>
         <a href="/" onClick={actions.openModal()} data-modal="modal-one">instruções</a>
@@ -18,25 +17,25 @@ const {actions} = useContext(Context);
         <div className="suggestPointsFormContainer">
           <form>
             <div className="formGroup">
-              <label className="primaryText">Ponto Awto 1</label>
+              <label className="">Ponto Awto 1</label>
               <input
                 className="formControl"
                 type="text"
                 placeHolder="Encontrar-me na barra de endereço"
               />
-              <label className="primaryText">Ponto Awto 2</label>
+              <label className="">Ponto Awto 2</label>
               <input
                 className="formControl"
                 type="text"
                 placeHolder="Encontrar-me na barra de endereço"
               />
-              <label className="primaryText">Ponto Awto 3</label>
+              <label className="">Ponto Awto 3</label>
               <input
                 className="formControl"
                 type="text"
                 placeHolder="Encontrar-me na barra de endereço"
               />
-              <label className="primaryText customColor">
+              <label className=" customColor">
                 Qual é o seu nome?
               </label>
               <input
@@ -44,7 +43,7 @@ const {actions} = useContext(Context);
                 type="text"
                 placeHolder="Digite seu primeiro e sobrenome"
               />
-              <label className="primaryText customColor">
+              <label className=" customColor">
                 Qual é o seu e-mail?
               </label>
               <input
@@ -57,24 +56,24 @@ const {actions} = useContext(Context);
           </form>
         </div>
       </div>
-      <div class="modal" id="modal-one">
-        <div class="modal-bg modal-exit"></div>
-        <div class="modal-container">
-          <h3 className="primaryText">Instruções</h3>
+      <div className="modal" id="modal-one">
+        <div className="modal-bg modal-exit"></div>
+        <div className="modal-container">
+          <h3 className="">Instruções</h3>
           <ol>
-            <li className="secondaryText">
+            <li className="">
               Digite o endereço do ponto que deseja sugerir dentro da caixa de
               pesquisa de endereços e clique no botao "adicionar".
             </li>
-            <li className="secondaryText">
+            <li className="">
               Depois de sigerir tres pontos, preencha as informaçoes com seu
               nome e e-mail e acerte "enviar".
             </li>
           </ol>
-          <button class="modal-close modal-exit">X</button>
+          <button className="modal-close modal-exit">X</button>
         </div>
       </div>
     </section>
-  );
-};
-export default SuggestPoints;
+  )
+}
+export default SuggestPoints

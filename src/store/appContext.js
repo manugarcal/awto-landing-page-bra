@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import getState from './flux'
 export const Context = createContext(null)
 
@@ -21,9 +21,9 @@ const injectContext = PassedComponent => {
     }, [])
 
     return (
-            <Context.Provider value={state}>
-                <PassedComponent {...props} />
-            </Context.Provider>
+      <Context.Provider value={state}>
+        <PassedComponent {...props} />
+      </Context.Provider>
     )
   }
   return StoreWrapper

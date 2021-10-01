@@ -8,7 +8,7 @@ const {actions} = useContext(Context);
     <section className="suggestPointsWrapper">
       <div className="suggestPointsTitle">
         <p className="secondaryText">Sugira pontos Awto</p>
-        <h3 className="primaryTitle">
+        <h3 className="primaryTitle text-color-blue">
           Ajude-nos a decidir a localização de nossos novos Pontos Awto
         </h3>
         <a href="/" onClick={actions.openModal()} data-modal="modal-one">instruções</a>

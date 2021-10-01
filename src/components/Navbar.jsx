@@ -3,11 +3,11 @@ import awtoLogo from "../assets/awto-header.svg";
 
 const Navbar = () => {
   return (
-    <div className="headerContainer container">
-      <div className="headerLogoContainer">
+    <div className="flex justify-between flex-wrap mt5 mb5-l">
+      <div className="w-100 w-50-l">
         <img src={awtoLogo} alt="Awto Logo" />
       </div>
-      <div className="butonsContainer">
+      <div className="butonsContainer w-100 w-50-l">
         <a href="/home" className="headerBtn">
           Nossos Pilares
         </a>

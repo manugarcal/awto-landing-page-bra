@@ -7,10 +7,10 @@ import pilarApp from "../assets/img-pilares.png";
 
 const OurPillars = () => {
   return (
-    <section className="ourPillarsContainer container">
+    <section className="ourPillarsContainer">
       <div className="ourPillarsTitle">
         <p className="secondaryText">Nossos pilares</p>
-        <h3 className="primaryTitle">
+        <h3 className="primaryTitle text-color-blue">
           Economia, praticidade e responsabilidade com uma nova maneira de se
           locomover
         </h3>

@@ -6,10 +6,10 @@ import Onboard3 from "../assets/onboard-3.svg";
 
 const Benefits = () => {
   return (
-    <section className="container">
+    <section>
       <div className="benefitsTitle">
-        <p className="secondaryText">Esqueça benzina, seguro e burocracias</p>
-        <h3 className="primaryTitle">
+        <p>Esqueça benzina, seguro e burocracias</p>
+        <h3 className="primaryTitle text-color-blue">
           Com awto você tem todos os benefícios de um carro, sem os coustos de
           tê-lo
         </h3>

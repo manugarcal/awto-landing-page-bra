@@ -7,7 +7,7 @@ const SocialMedia = () => {
   return (
     <section className="socialMediaContainer">
       <div className="socialMediaWrapper">
-        <h3 className="primaryTitle">Siga-nos em nossas redes sociais</h3>
+        <h3 className="primaryTitle text-color-blue">Siga-nos em nossas redes sociais</h3>
         <div className="socialMediaIconsContainer">
           <div className="socialMediaIcon">
             <img src={iconFb} alt="FaceBook" />

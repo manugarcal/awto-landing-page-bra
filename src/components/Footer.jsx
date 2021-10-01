@@ -9,10 +9,10 @@ const Footer = () => {
         </p>
       </div>
       <div className="footerBtns">
-        <a className="footerLink" href="/#">
+        <a className="footerLink text-color-blue" href="/#">
           Nossos Pilares
         </a>
-        <a className="footerLink" href="/#">
+        <a className="footerLink text-color-blue" href="/#">
           Contato
         </a>
       </div>

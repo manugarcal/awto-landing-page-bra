@@ -9,7 +9,7 @@ const OurPillars = () => {
     <section className="flex flex-wrap">
       <div className="w-100 w-50-l">
         <p className="tc tl-l">Nossos pilares</p>
-        <h3 className="text-color-blue text-color-blue f4 tc tl-l">
+        <h3 className="text-color-blue text-color-blue f3 tc tl-l">
           Economia, praticidade e responsabilidade com uma nova maneira de se
           locomover
         </h3>
@@ -46,7 +46,7 @@ const OurPillars = () => {
         </div>
       </div>
       <div className="w-100 w-50-l">
-        <img className="w-80 center db" src={pilarApp} alt="pilares app" />
+        <img className="w-60 center db" src={pilarApp} alt="pilares app" />
       </div>
     </section>
   )

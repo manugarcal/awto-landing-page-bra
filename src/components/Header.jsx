@@ -4,7 +4,7 @@ import imgAwtoMainHeader from '../assets/img-awto.webp'
 
 const Header = () => {
   return (
-    <section className="flex justify-between flex-wrap mv2 mv5-l">
+    <section className="flex justify-between flex-wrap mv2 mt5-l">
       <div className="w-100 w-50-l">
         <h1 className="text-color-blue tc tl-l f2 f1-l mb5">Você quer fazer parte de uma tendência global?</h1>
         <p className="text-color-gray f6 fw5 tc tl-l mb5">

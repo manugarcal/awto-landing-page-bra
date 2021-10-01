@@ -143,22 +143,6 @@ p {
 
 /* -----------Suggest Points component Style----------- */
 
-.suggestPointsWrapper {
-    margin: 10vh 10vw;
-}
-
-.suggestPointsTitle {
-    text-align: center;
-}
-
-.suggestPointsContainer {
-    padding: 5vh 0vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-}
-
 .formGroup {
     display: flex;
     flex-direction: column;

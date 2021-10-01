@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <section className="flex justify-between flex-wrap mv2 mv5-l">
       <div className="w-100 w-50-l">
-        <h1 className="text-color-blue tc tl-l f2 f1-l">Você quer fazer parte de uma tendência global?</h1>
-        <p className="text-color-gray f6 fw5 tc tl-l">
+        <h1 className="text-color-blue tc tl-l f2 f1-l mb5">Você quer fazer parte de uma tendência global?</h1>
+        <p className="text-color-gray f6 fw5 tc tl-l mb5">
           O principal sistema de compartilhamento de carros da América Latina
           chegará em breve ao Brasil
         </p>

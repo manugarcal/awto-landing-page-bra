@@ -17,10 +17,12 @@ module.exports = {
   plugins: [
     'react'
   ],
-  indent: [
-    2
-  ],
+
   rules: {
-    'react/no-unescaped-entities': 'off'
+    'react/no-unescaped-entities': 'off',
+    indent: [
+      'error',
+      2
+    ]
   }
 }

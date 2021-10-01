@@ -149,10 +149,6 @@ p {
     width: 70%;
 }
 
-.customColor {
-    color: var(--secondary-color);
-}
-
 .submitBtnSuggestPoints {
     width: 40%;
     background-color: var(--secondary-color);

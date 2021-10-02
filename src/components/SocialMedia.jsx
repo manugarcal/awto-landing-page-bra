@@ -5,10 +5,10 @@ import iconIg from '../assets/rrss-instagram.svg'
 
 const SocialMedia = () => {
   return (
-    <section className="socialMediaContainer">
-      <div className="socialMediaWrapper">
-        <h3 className="text-color-blue f3">Siga-nos em nossas redes sociais</h3>
-        <div className="socialMediaIconsContainer">
+    <section className="w-90 w-50-l db center ma5">
+      <div className="socialMediaWrapper flex justify-center flex-wrap pa4">
+        <h3 className="text-color-primary f3 db w-100 w-60-l center tc tl-l">Siga-nos em nossas redes sociais</h3>
+        <div className="flex justify-center w-100 w-40-l">
           <div className="socialMediaIcon">
             <img src={iconFb} alt="FaceBook" />
           </div>

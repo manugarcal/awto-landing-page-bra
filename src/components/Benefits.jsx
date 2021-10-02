@@ -8,7 +8,7 @@ const Benefits = () => {
     <section>
       <div className="center w-100 tc">
         <p className="">Esqueça benzina, seguro e burocracias</p>
-        <h3 className="text-color-blue f4 w-50-l center w-100">
+        <h3 className="text-color-primary f4 w-50-l center w-100">
           Com awto você tem todos os benefícios de um carro, sem os coustos de
           tê-lo
         </h3>
@@ -19,7 +19,7 @@ const Benefits = () => {
             <img src={Onboard1} alt="onboard 1" />
           </div>
           <div>
-            <p className="text-color-blue tc f5 fw7">Abrir as portas com seu telefone</p>
+            <p className="text-color-primary tc f5 fw7">Abrir as portas com seu telefone</p>
             <p className="tc">Reserve o veículo mais próximo de você. Pegue e abra as portas com seu telefone</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Benefits = () => {
             <img src={Onboard2} alt="onboard 1" />
           </div>
           <div>
-            <p className="text-color-blue tc f5 fw7">Dirija o tempo que quiser</p>
+            <p className="text-color-primary tc f5 fw7">Dirija o tempo que quiser</p>
             <p className="tc">Se você quiser fazer uma parada e permanecer com o veículo, basta fechá-lo com as chaves</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Benefits = () => {
             <img src={Onboard3} alt="onboard 1" />
           </div>
           <div>
-            <p className="text-color-blue tc f5 fw7">Finalize em qualquer ponto Awto disponível</p>
+            <p className="text-color-primary tc f5 fw7">Finalize em qualquer ponto Awto disponível</p>
             <p className="tc">Quando terminar sua viagem, retorne o veículo no Awto Point (pode ser previamente reservado) e finalize a viagem pelo seu telefone</p>
           </div>
         </div>

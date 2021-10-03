@@ -6,7 +6,7 @@ import 'tachyons'
 
 const App = () => {
   return (
-    <div className="w-100 center ph3 ph5-l">
+    <div>
       <Home />
     </div>
   )

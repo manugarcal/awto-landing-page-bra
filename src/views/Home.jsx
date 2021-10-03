@@ -10,14 +10,16 @@ import Footer from '../components/Footer.jsx'
 
 export const Home = () => {
     return (
-        <div>
-            <Navbar />
-            <Header />
-            <Benefits />
-            <OurPillars />
-            <SuggestPoints />
-            <SocialMedia />
-            <ContactUsForm />
+        <div >
+            <div className="w-100 center ph3 ph5-l">
+                <Navbar />
+                <Header />
+                <Benefits />
+                <OurPillars />
+                <SuggestPoints />
+                <SocialMedia />
+                <ContactUsForm />
+            </div>
             <Footer />
         </div>
     )

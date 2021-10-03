@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="mv5">
+    <footer className="footerbg pv6 pv7-l">
       <div>
         <p className="tc">
           Awto &copy; Copyright 2021. todos os dereitos reservados

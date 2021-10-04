@@ -1,13 +1,15 @@
-import './App.css';
-import injectContext from "./store/appContext";
-import Home from './views/Home';
+import React from 'react'
+import './App.css'
+import injectContext from './store/appContext'
+import Home from './views/Home'
+import 'tachyons'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <Home />
+    <div>
+      <Home />
     </div>
-  );
+  )
 }
 
-export default injectContext(App);
+export default injectContext(App)

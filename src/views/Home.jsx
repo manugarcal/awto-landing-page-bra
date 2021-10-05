@@ -11,7 +11,7 @@ import Footer from '../components/Footer.jsx'
 export const Home = () => {
     return (
         <div >
-            <div className="w-100 center ph3 ph5-l">
+            <div className="w-80 center ph3 ph5-l">
                 <Navbar />
                 <Header />
                 <Benefits />

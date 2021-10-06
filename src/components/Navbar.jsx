@@ -8,13 +8,13 @@ const Navbar = () => {
         <img src={awtoLogo} alt="Awto Logo" />
       </div>
       <div className="butonsContainer w-100 w-50-l">
-        <a href="/home" className="headerBtn">
+        <a href="#ourPillars" className="headerBtn">
           Nossos Pilares
         </a>
-        <a href="/home" className="headerBtn">
+        <a href="#contato" className="headerBtn">
           Contato
         </a>
-        <a href="/home" className="headerBtn">
+        <a href="#suggestPoint" className="headerBtn">
           Sugere Pontos Awto
         </a>
       </div>

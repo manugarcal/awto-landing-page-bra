@@ -6,7 +6,7 @@ import pilarApp from '../assets/img-pilares.png'
 
 const OurPillars = () => {
   return (
-    <section className="flex flex-wrap">
+    <section id="ourPillars" className="flex flex-wrap">
       <div className="w-100 w-50-l">
         <p className="tc tl-l">Nossos pilares</p>
         <h3 className="text-color-primary text-color-primary f3 tc tl-l">

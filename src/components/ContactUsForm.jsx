@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactUsForm = () => {
   return (
-    <section className="">
-      <div className="">
+    <section id="contato" >
+      <div >
         <p className="db tc">Dúvidas ou consultas?</p>
         <h3 className="text-color-primary f3 tc">Escreva para nós e responderemos o mais rápido possivel</h3>
         <form>

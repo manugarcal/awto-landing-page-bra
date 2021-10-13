@@ -21,7 +21,7 @@ const OurPillars = () => {
                   <img src={pilarEconomico} alt="Pilar Economico" />
                 </div>
                 <p className="text-color-primary f5 fw7">Economico</p>
-                <p className="">Com Awto você tem todos os benefícios de um carro, sem os coustos de tê-lo</p>
+                <p className="">Com Awto você tem todos os benefícios de um carro, sem os custos de tê-lo</p>
               </div>
             </div>
             <div className="w-100 w-50-l pa2">

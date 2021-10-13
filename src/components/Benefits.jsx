@@ -7,9 +7,9 @@ const Benefits = () => {
   return (
     <section>
       <div className="center w-100 tc">
-        <p className="">Esqueça benzina, seguro e burocracias</p>
+        <p className="">Esqueça combustível, seguro e burocracias</p>
         <h3 className="text-color-primary f4 w-50-l center w-100">
-          Com awto você tem todos os benefícios de um carro, sem os coustos de
+          A awto você tem todos os benefícios de um carro, sem os custos de
           tê-lo
         </h3>
       </div>

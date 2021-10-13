@@ -9,7 +9,7 @@ const Header = () => {
       <div className="w-100 w-50-l">
         <h1 className="text-color-primary tc tl-l f2 f1-l mb5">Você quer fazer parte de uma tendência global?</h1>
         <p className="text-color-secondaryf6 fw5 tc tl-l mb5">
-          O principal sistema de compartilhamento de carros da América Latina
+          O mais completo sistema de compartilhamento de carros da América Latina
           chegará em breve ao Brasil
         </p>
         <div>

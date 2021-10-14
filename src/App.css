@@ -82,6 +82,10 @@ p {
     padding: 7px 25px;
 }
 
+.headerBtn:nth-child(1) {
+    background-color: #459cdc;
+}
+
 .headerBtn:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
@@ -204,6 +208,13 @@ p {
     cursor: pointer;
 }
 
+.iframe-map {
+    width: 100%;
+    border: 0;
+    height: 950px;
+    overflow: hidden;
+}
+
 
 /* -----------Social Media Component Styles----------- */
 
@@ -224,5 +235,8 @@ p {
     .ph5-l {
         padding-left: 4 rem;
         padding-right: 4 rem;
+    }
+    .iframe-map {
+        height: 600px;
     }
 }

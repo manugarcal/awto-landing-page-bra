@@ -20,7 +20,7 @@ const Header = () => {
         <div>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="headerInpurContainer w-100 w-80-l flex mv4">
-              <input {...register('email')} className="headerInput w-70 w-80-l" type="email" />
+              <input {...register('email', { required: true })} className="headerInput w-70 w-80-l" type="email" />
               <input className="btnSubmit w-30 w-20-l" type="submit" />
             </div>
           </form>

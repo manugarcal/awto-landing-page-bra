@@ -4,13 +4,13 @@ import { Context } from '../store/appContext'
 const SuggestPoints = () => {
   const { actions } = useContext(Context)
   return (
-    <section className="mv5">
+    <section id="suggestPoint" className="mv5">
       <div className="tc">
         <p>Sugira pontos Awto</p>
         <h3 className="text-color-primary f3 tc">
           Ajude-nos a decidir a localização de nossos novos Pontos Awto
         </h3>
-        <a href="" className="text-color-primary" onClick={actions.openModal()} data-modal="modal-one">instruções</a>
+        <a href="#" className="text-color-primary" onClick={actions.openModal()} data-modal="modal-one">instruções</a>
       </div>
       <div className="flex flex-wrap w-100 mv5">
         <iframe scrolling="no" className="iframe-map" src="https://www.awtosuite.pro/marketing/saopaulo" title="mapa">

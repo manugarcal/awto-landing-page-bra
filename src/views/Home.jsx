@@ -7,11 +7,13 @@ import SuggestPoints from '../components/SuggestPoints.jsx'
 import SocialMedia from '../components/SocialMedia.jsx'
 import ContactUsForm from '../components/ContactUsForm.jsx'
 import Footer from '../components/Footer.jsx'
+import BurgerMenu from '../components/Menu'
 
 export const Home = () => {
     return (
-        <div >
+        <>
             <div className="w-80 center ph3 ph5-l">
+                <BurgerMenu />
                 <Navbar />
                 <Header />
                 <Benefits />
@@ -21,7 +23,7 @@ export const Home = () => {
                 <ContactUsForm />
             </div>
             <Footer />
-        </div>
+        </>
     )
 }
 export default Home

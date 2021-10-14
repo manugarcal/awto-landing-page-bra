@@ -9,6 +9,9 @@ body {
     background: url(assets/waves-header.png) left top/contain no-repeat;
     color: #606770;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .text-color-primary {
     color: var(--primary-color);
@@ -59,6 +62,78 @@ p {
     text-decoration: none;
 }
 
+/* -----------Menu BurgerComponent Styles----------- */
+
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 15px;
+    top: 36px;
+}
+
+
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+    background: #fff;
+}
+
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+    height: 23px;
+    width: 23px;
+}
+
+.bm-cross {
+    background: #fff;
+}
+
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+
+/* General sidebar styles */
+
+.bm-menu {
+    display: flex;
+    justify-content: center;
+    background: var(--primary-color);
+    opacity: 0.9;
+    padding: 1.5em 1em 0;
+    font-size: 1.5em;
+}
+
+
+/* Wrapper for item list */
+
+.bm-item-list {
+    padding: 0.8em;
+}
+
+
+/* Individual item */
+
+.bm-item {
+    color: #fff;
+    text-align: center;
+    margin: 3.5vh auto;
+    cursor: pointer;
+}
 
 /* -----------navbar || header Styles----------- */
 
@@ -239,4 +314,18 @@ p {
     .iframe-map {
         height: 600px;
     }
+}
+@media screen and (min-width: 1440px) {
+    .bm-burger-button {
+        display: none;
+    }
+    .buttonsContainer {
+        display: flex;
+    }
+}
+@media screen and (max-width: 1439px) {
+    .buttonsContainer{
+        display: none;
+}
+    
 }
